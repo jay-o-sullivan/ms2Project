@@ -18,7 +18,7 @@ body {
     margin-bottom: 30px;
   }  
   .jumbotron {
-   background-image: url(/assets/images/irish.jpg);
+    background-image: url(/assets/images/irish.jpg);
     background-size: cover;
     color: #fff;
     padding: 100px 25px;
@@ -133,34 +133,7 @@ body {
     margin-bottom: 20px;
     color: #f4511e;
   }
-  .slideanim {visibility:hidden;}
-  .slide {
-    animation-name: slide;
-    -webkit-animation-name: slide;
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    visibility: visible;
-  }
-  @keyframes slide {
-    0% {
-      opacity: 0;
-      transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
+ 
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
