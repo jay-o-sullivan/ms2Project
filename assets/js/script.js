@@ -30,9 +30,8 @@ $(document).ready(function(){
           $(this).addClass("slide");
         }
     });
-  });
-  function sendMail(contactForm) {
-    emailjs.send("gmail", "emailjs", {
+    function sendMail(contactForm) {
+    emailjs.send("gmail", "template", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "enquiry_request": contactForm.enquirysummary.value
@@ -48,3 +47,4 @@ $(document).ready(function(){
     return false;  // To block from loading a new page
 }
 })
+  });
