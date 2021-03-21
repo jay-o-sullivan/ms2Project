@@ -31,4 +31,11 @@ $(document).ready(function(){
         }
     });
   });
+  function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(52.6515985,-8.7001797),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
 })

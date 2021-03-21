@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
-    <title>The Green Isle</title>
+    <title>Abbey Rock Resort</title>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -29,7 +29,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#activities">ACTIVITIES</a></li>
-        <li><a href="#accomadation">ACOMANDATE</a></li>
+        <li><a href="#accomadation">ACOMANDATION</a></li>
         <li><a href="#pricing">PRICING</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
@@ -38,8 +38,8 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>Welcome to Ireland</h1> 
-  <p>The Green Isle</p> 
+  <h1>Welcome to Abbey Rock Resort</h1> 
+  <p>Home away from home</p> 
  <form class="form-inline">
     <div class="input-group">
       <input type="email" class="form-control" size="50" placeholder="Email Address" required>
@@ -83,7 +83,7 @@
 <!-- Container (activities Section) -->
 <div id="activities" class="container-fluid text-center">
   <h2>Activities</h2>
-  <h4>We offer</h4>
+  <h4>What we offer</h4>
   <br>
   
     <div class="col-sm-4">
@@ -123,7 +123,7 @@
 
 <!-- Container (accomadation Section) -->
 <div id="ACOMANDATE" class="container-fluid text-center bg-grey">
-  <h2>We Allow</h2><br>
+  <h2>We allow all of these </h2><br>
   <h4></h4>
   
     <div class="col-sm-4">
@@ -280,7 +280,12 @@
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+<div id="googleMap" style="width:100%;height:400px;"></div>
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmykq2N_A8JqjYd_-x0PLEtJj_EDWhNtg&callback=initMap">
+</script>
+
+
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
