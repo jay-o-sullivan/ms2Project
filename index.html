@@ -11,7 +11,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
+
     <title>Abbey Rock Resort</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
+})();
+</script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -130,21 +137,21 @@
       <div class="thumbnail">
         <img src="assets/images/trailer.jpg" alt="Caravan" width="400" height="300">
         <p><strong>Caravan</strong></p>
-        <p>staying in caravans</p>
+        <p>Staying in caravans</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
         <img src="assets/images/tent.jpg" alt="Tent" width="400" height="300">
         <p><strong>Tent</strong></p>
-        <p>camping in tents</p>
+        <p>Camping in tents</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
         <img src="assets/images/campervan.jpg" alt="campervan" width="400" height="300">
         <p><strong>Campervan</strong></p>
-        <p>staying in campervans</p>
+        <p>Staying in campervans</p>
       </div>
     
   </div><br>
@@ -187,13 +194,13 @@
 <div id="pricing" class="container-fluid">
   <div class="text-center">
     <h2>Pricing</h2>
-    <h4>Choose a payment plan that works for you</h4>
+    <h4>Choose one that works for you</h4>
   </div>
   <div class="row slideanim">
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Basic</h1>
+          <h1>Camping</h1>
         </div>
         <div class="panel-body">
           <p><strong>20</strong> Lorem</p>
@@ -203,16 +210,16 @@
           <p><strong>Endless</strong> Amet</p>
         </div>
         <div class="panel-footer">
-          <h3>$19</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
+          <h3>€29</h3>
+          <h4>per week</h4>
+          <button class="btn btn-lg">Choose</button>
         </div>
       </div>      
     </div>     
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Pro</h1>
+          <h1>Caravan</h1>
         </div>
         <div class="panel-body">
           <p><strong>50</strong> Lorem</p>
@@ -222,16 +229,16 @@
           <p><strong>Endless</strong> Amet</p>
         </div>
         <div class="panel-footer">
-          <h3>$29</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
+          <h3>€49</h3>
+          <h4>per week</h4>
+          <button class="btn btn-lg">Choose</button>
         </div>
       </div>      
     </div>       
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Premium</h1>
+          <h1>Campervan</h1>
         </div>
         <div class="panel-body">
           <p><strong>100</strong> Lorem</p>
@@ -241,9 +248,9 @@
           <p><strong>Endless</strong> Amet</p>
         </div>
         <div class="panel-footer">
-          <h3>$49</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
+          <h3>€79</h3>
+          <h4>per week</h4>
+          <button class="btn btn-lg">Choose</button>
         </div>
       </div>      
     </div>    
@@ -256,34 +263,25 @@
   <div class="row">
     <div class="col-sm-5">
       <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Limerick, Ireland</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 061-234567</p>
     </div>
     <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
-        </div>
-      </div>
+     <form onsubmit="return sendMail(this);" method="POST">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="5" name="enquiry" class="form-control" id="enquirysummary" placeholder="Query" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Send</button>
+                </form>
     </div>
+    
   </div>
 </div>
 
 <!-- Image of location/map -->
-<div id="googleMap" style="width:100%;height:400px;"></div>
-<script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmykq2N_A8JqjYd_-x0PLEtJj_EDWhNtg&callback=initMap">
-</script>
+<iframe width="100%" height="450" style="border:0" loading="lazy" 
+allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJE1FUH2FcW0gRMHMxl6nHAAo&key=AIzaSyDvUDtC45fHoCwpTjeAnFbMZQtLaRBiY-A">
+</iframe> 
 
 
 
@@ -291,7 +289,7 @@
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+  <p>&#169;Abbey Rock Resort 2021</p>
 </footer>
     
 </body>

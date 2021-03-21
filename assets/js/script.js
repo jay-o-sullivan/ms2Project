@@ -31,11 +31,20 @@ $(document).ready(function(){
         }
     });
   });
-  function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(52.6515985,-8.7001797),
-  zoom:5,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  function sendMail(contactForm) {
+    emailjs.send("gmail", "emailjs", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.emailaddress.value,
+        "enquiry_request": contactForm.enquirysummary.value
+    })
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        }
+    );
+    return false;  // To block from loading a new page
 }
 })
