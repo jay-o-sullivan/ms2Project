@@ -18,9 +18,9 @@ body {
     margin-bottom: 30px;
   }  
   .jumbotron {
-    background-image: url(assets/images/getaway.jpg);
+    background-image: url(/assets/images/getaway.jpg);
     background-size: cover;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
   }
