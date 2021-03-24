@@ -30,6 +30,7 @@ $(document).ready(function(){
           $(this).addClass("slide");
         }
     });
+    document.getElementById("form").addEventListener("sendMail", sendMail);
     function sendMail(contactForm) {
     emailjs.send("gmail", "template", {
         "from_name": contactForm.name.value,
@@ -47,4 +48,14 @@ $(document).ready(function(){
     return false;  // To block from loading a new page
 }
 })
+document.getElementById("touch").addEventListener("mouseover", mouseOver);
+document.getElementById("touch").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+  document.getElementById("touch").textContent = "Error refer to contact tab above";
+}
+
+function mouseOut() {
+  document.getElementById("touch").textContent = "Get in Touch";
+}
   });
