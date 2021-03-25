@@ -13,8 +13,8 @@
     
 
     <title>Abbey Rock Resort</title>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<script type="text/javascript">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script>
 (function() {
 emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
 })();
@@ -30,7 +30,7 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage"><img src="assets/images/logo.png" height="25" ,width="25"></a>
+      <a class="navbar-brand" href="#myPage"><img src="assets/images/logo.png" height="25"width="25" alt="logo"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -59,7 +59,9 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
          is the perfect retreat to get back to nature, relax and take time to enjoy the company of family and friends in these beautiful surroundings.<br>
          <strong>We only take limited bookings at a time so we can keep all our guests and visitors safe.</strong>
         </p>
-      <br><button class="btn btn-default btn-lg" id="touch"><a href="#contact">Get in Touch</a></button>
+      <br>
+      <form action="#contact">
+      <button type="submit" class="btn btn-default btn-lg" id="touch">Get in Touch</button></form>
     </div>
   </div></div>
 
@@ -120,34 +122,34 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
   <br>
   
     <div class="col-sm-4">
-      <span><img src="assets/images/golf.jpg"></span>
+      <span><img src="assets/images/golf.jpg" alt="golf"></span>
       <h4>Golf</h4>
       <p>why not play in our fantastic 18 hole golf course or have some fun with the kids in some crazy golf.</p>
     </div>
     <div class="col-sm-4">
-      <span><img src="assets/images/hiking.jpg"></span>
+      <span><img src="assets/images/hiking.jpg" alt="hiking"></span>
       <h4>Hiking/Walking</h4>
       <p>Maybe a nice walk around the forest or some hiking through the mountains and we also have a beautiful cycle track where you might see some of our local wildlife.</p>
     </div>
     <div class="col-sm-4">
-      <span><img src="assets/images/fishing.jpg"></span>
+      <span><img src="assets/images/fishing.jpg" alt="fishing"></span>
       <h4>Fishing</h4>
       <p>Maybe catch a few fish for the barbeque or just relax and unwind. 2 fish per person</p>
     </div>
 </div>
-<div id="activities" class="container-fluid text-center">
+<div id="activities2" class="container-fluid text-center">
     <div class="col-sm-4">
-      <span><img src="assets/images/orca.jpg"></span>
+      <span><img src="assets/images/orca.jpg" alt="orca"></span>
       <h4>Whale Watching</h4>
       <p>Why not try our boat trip and see some whales up close in the wild and its also a fantastic opportunity to get some photos. we offer 3 boat trips a day.</p>
     </div>
     <div class="col-sm-4">
-      <span><img src="assets/images/animals.jpg"></span>
+      <span><img src="assets/images/animals.jpg" alt="animals"></span>
       <h4>Pet Farm</h4>
       <p>Come and see some of our cute and furry friends and why not purchase some of our pet food so you can feed them.</p>
     </div>
     <div class="col-sm-4">
-      <span><img src="assets/images/nature.jpg"></span>
+      <span><img src="assets/images/nature.jpg" alt="nature"></span>
       <h4>Nature</h4>
       <p>Enjoy nature at its finest whether its relaxing with some music or just reading a book</p>
     </div>
@@ -198,7 +200,7 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4>"This Place is the best. I am so happy with the vacation!"<br><span> John Doe, Visitor</span></h4>
+        <h4>"This Place is the best. I am so happy with the vacation!"<br><span> John Doe, Guest</span></h4>
       </div>
       <div class="item">
         <h4>"One word... WOW!!"<br><span>Jane Doe, Visitor</span></h4>
@@ -251,7 +253,8 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
         <div class="panel-footer">
           <h3>€29</h3>
           <h4>per week</h4>
-          <button class="btn btn-lg"><a href="error404.html">Choose</a></button>
+          <form action="error404.html">
+          <button class="btn btn-lg">Choose</button></form>
         </div>
       </div>      
     </div>     
@@ -270,7 +273,8 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
         <div class="panel-footer">
           <h3>€49</h3>
           <h4>per week</h4>
-          <button class="btn btn-lg"><a href="error404.html">Choose</a></button>
+          <form action="error404.html">
+          <button class="btn btn-lg">Choose</button></form>
         </div>
       </div>      
     </div>       
@@ -289,7 +293,8 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
         <div class="panel-footer">
           <h3>€79</h3>
           <h4>per week</h4>
-          <button class="btn btn-lg"><a href="error404.html">Choose</a></button>
+          <form action="error404.html">
+          <button class="btn btn-lg">Choose</button></form>
         </div>
       </div>      
     </div>    
@@ -318,7 +323,7 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
 </div>
 
 <!-- Image of location/map -->
-<iframe width="100%" height="450" style="border:0" loading="lazy" 
+<iframe width="1000" height="450" style="border:0" loading="lazy" 
 allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJE1FUH2FcW0gRMHMxl6nHAAo&key=AIzaSyDvUDtC45fHoCwpTjeAnFbMZQtLaRBiY-A">
 </iframe> 
 
@@ -328,7 +333,7 @@ allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJE
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p>&#169;Abbey Rock Resort 2021</p>
-  <img src="assets/images/logo.png" height="25" ,width="25">
+  <img src="assets/images/logo.png" alt="logo" height="25" width="25">
 </footer>
 
 </body>
