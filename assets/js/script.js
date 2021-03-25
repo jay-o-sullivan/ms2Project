@@ -47,7 +47,7 @@ $(document).ready(function(){
     );
     return false;  // To block from loading a new page
 }
-})
+});
 document.getElementById("touch").addEventListener("mouseover", mouseOver);
 document.getElementById("touch").addEventListener("mouseout", mouseOut);
 
@@ -58,6 +58,4 @@ function mouseOver() {
 function mouseOut() {
   document.getElementById("touch").textContent = "Get in Touch";
 }
-
-
-  });
+});

@@ -12,17 +12,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
 
-    <title>Abbey Rock Resort</title>
+    <title>Abbey Rock Resort</title> <!-- Title   -->               
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 <script>
-(function() {
+(function() {   
 emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
-})();
-</script>
+})();      
+</script>  <!-- Email Script  -->
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"> 
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top"> <!-- nav class   -->
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -30,9 +30,9 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage"><img src="assets/images/logo.png" height="25"width="40" alt="logo"></a>
+      <a class="navbar-brand" href="#myPage"><img src="assets/images/logo.png" height="25"width="40" alt="logo"></a> <!-- logo in navbar   -->
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+    <div class="collapse navbar-collapse" id="myNavbar"> <!-- navbar and navigations   -->
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#activities">ACTIVITIES</a></li>
@@ -44,7 +44,7 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
   </div>
 </nav>
 
-<div class="jumbotron text-center">
+<div class="jumbotron text-center"> <!-- div class   -->
   <h1><strong>Welcome to Abbey Rock Resort</strong></h1> 
   <p>Home away from home</p> </div>
 
@@ -53,18 +53,18 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h2>About</h2><br>
+      <h2>About</h2><br><!-- about heading and paragraph   -->
       <p>Wonderfully spacious, perfectly placed and incredibly enticing, Abbey Rock Resort is nestled in the beautiful grounds of the 900 Acre forestry and lakeside.
          At Abbey Rock Resort we invite our guests to enjoy the many activities we have to offer and it 
          is the perfect retreat to get back to nature, relax and take time to enjoy the company of family and friends in these beautiful surroundings.<br>
          <strong>We only take limited bookings at a time so we can keep all our guests and visitors safe.</strong>
         </p>
       <br>
-      <form action="#contact">
-      <button type="submit" class="btn btn-default btn-lg" id="touch">Get in Touch</button></form>
+      <form action="#contact" id="touch">
+      <button onclick="alert('Directing to the contact page')" type="submit" class="btn btn-default btn-lg">Get in Touch</button></form><!-- form button  -->
     </div>
   </div></div>
-
+<!-- Carousel for images   -->
 <div class="container-fluid bg-grey">
   <div class="row">
 <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
@@ -82,22 +82,22 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="assets/images/hammocks.jpg" alt="hammock">
+        <img src="assets/images/hammocks.jpg" alt="hammock"><!-- image   -->
       </div>
       <div class="item">
-        <img src="assets/images/walk.jpg" alt="nature walk">
+        <img src="assets/images/walk.jpg" alt="nature walk"><!-- image   -->
       </div>
       <div class="item">
-        <img src="assets/images/camp.jpg" alt="camp">
+        <img src="assets/images/camp.jpg" alt="camp"><!-- image   -->
       </div>
       <div class="item">
-        <img src="assets/images/forest.jpg" alt="forest">
+        <img src="assets/images/forest.jpg" alt="forest"><!-- image   -->
       </div>
       <div class="item">
-        <img src="assets/images/bridge.jpg" alt="bridge">
+        <img src="assets/images/bridge.jpg" alt="bridge"><!-- image   -->
       </div>
       <div class="item">
-        <img src="assets/images/motorhome.jpg" alt="motorhome">
+        <img src="assets/images/motorhome.jpg" alt="motorhome"><!-- image   -->
       </div>
     </div>
 
@@ -122,34 +122,35 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
   <br>
   
     <div class="col-sm-4">
-      <span><img src="assets/images/golf.jpg" alt="golf"></span>
+      <span><img src="assets/images/golf.jpg" alt="golf"></span><!-- image   -->
       <h4>Golf</h4>
       <p>why not play in our fantastic 18 hole golf course or have some fun with the kids in some crazy golf.</p>
     </div>
     <div class="col-sm-4">
-      <span><img src="assets/images/hiking.jpg" alt="hiking"></span>
+      <span><img src="assets/images/hiking.jpg" alt="hiking"></span><!-- image   -->
       <h4>Hiking/Walking</h4>
       <p>Maybe a nice walk around the forest or some hiking through the mountains and we also have a beautiful cycle track where you might see some of our local wildlife.</p>
     </div>
     <div class="col-sm-4">
-      <span><img src="assets/images/fishing.jpg" alt="fishing"></span>
+      <span><img src="assets/images/fishing.jpg" alt="fishing"></span><!-- image   -->
       <h4>Fishing</h4>
       <p>Maybe catch a few fish for the barbeque or just relax and unwind. 2 fish per person</p>
     </div>
 </div>
+<!-- another activities section   -->
 <div id="activities2" class="container-fluid text-center">
     <div class="col-sm-4">
-      <span><img src="assets/images/orca.jpg" alt="orca"></span>
+      <span><img src="assets/images/orca.jpg" alt="orca"></span><!-- image   -->
       <h4>Whale Watching</h4>
       <p>Why not try our boat trip and see some whales up close in the wild and its also a fantastic opportunity to get some photos. we offer 3 boat trips a day.</p>
     </div>
     <div class="col-sm-4">
-      <span><img src="assets/images/animals.jpg" alt="animals"></span>
+      <span><img src="assets/images/animals.jpg" alt="animals"></span><!-- image   -->
       <h4>Pet Farm</h4>
       <p>Come and see some of our cute and furry friends and why not purchase some of our pet food so you can feed them.</p>
     </div>
     <div class="col-sm-4">
-      <span><img src="assets/images/nature.jpg" alt="nature"></span>
+      <span><img src="assets/images/nature.jpg" alt="nature"></span><!-- image   -->
       <h4>Nature</h4>
       <p>Enjoy nature at its finest whether its relaxing with some music or just reading a book</p>
     </div>
@@ -163,21 +164,21 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
   
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="assets/images/trailer.jpg" alt="Caravan" width="400" height="300">
+        <img src="assets/images/trailer.jpg" alt="Caravan" width="400" height="300"><!-- image   -->
         <p><strong>Caravan</strong></p>
         <p>Staying in caravans</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="assets/images/tent.jpg" alt="Tent" width="400" height="300">
+        <img src="assets/images/tent.jpg" alt="Tent" width="400" height="300"><!-- image   -->
         <p><strong>Tent</strong></p>
         <p>Camping in tents</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="assets/images/campervan.jpg" alt="campervan" width="400" height="300">
+        <img src="assets/images/campervan.jpg" alt="campervan" width="400" height="300"><!-- image   -->
         <p><strong>Campervan</strong></p>
         <p>Staying in campervans</p>
       </div>
@@ -185,7 +186,7 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
   </div><br>
   
   <h2>What our visitors say</h2>
-  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <div id="myCarousel2" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
