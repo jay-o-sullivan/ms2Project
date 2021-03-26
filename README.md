@@ -5,9 +5,9 @@
 
 
 
-![Am I Responsive](assets/images/am-i-responsive.png)
+![Am I Responsive](assets/images/am-i-responsive.PNG)
 
-[View the github repo here](https://github.com/jay-o-sullivan/ms2Project)
+[view the live site here](https://jay-o-sullivan.github.io/ms2Project/)
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -74,12 +74,19 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+#### Content
+* Structure and content based heavily on:
+  * [Code Institute Solutions - README Template](https://github.com/Code-Institute-Solutions/readme-template)
+  * 
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from 
+ - [pexels](https://www.pexels.com/)
+ - [pixabay](https://pixabay.com/)
+ - [am i responsive](http://ami.responsivedesign.is/)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+* [W3 Schools](https://www.w3schools.com/) - Various resources
+* [Free logo maker](https://logomakr.com/9Z9zAo) - logo maker
+* [TingPNG](https://tinypng.com/) - image resizing
