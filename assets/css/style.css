@@ -18,7 +18,7 @@ body{
     margin-bottom: 30px;
   }  
   .jumbotron {
-    background-color: darkgreen;
+    background-color: rgb(54, 170, 54);
     background-size: cover;
     color: rgb(0, 0, 0);
     padding: 100px 25px;
@@ -132,7 +132,8 @@ body{
     font-size: 20px;
     margin-bottom: 20px;
     color: #f4511e;
-  } 
+  }
+ 
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
