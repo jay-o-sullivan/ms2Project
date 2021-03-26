@@ -1,9 +1,13 @@
-# Your Project's Name
+# Abbey Rock Retreat
+[GitHub Pages Live Site](https://jay-o-sullivan.github.io/ms2Project/)
 
-One or two paragraphs providing an overview of your project.
 
-Essentially, this part is your sales pitch.
- 
+
+
+
+![Am I Responsive](assets/images/am-i-responsive.png)
+
+[View the github repo here](https://github.com/jay-o-sullivan/ms2Project)
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -30,11 +34,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- [Bootstrap](https://getbootstrap.com)
+- [JavaScript](https://javascript.com)
+- [HTML5](https://html.com)
+- [CSS3](https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
 
 ## Testing
 
