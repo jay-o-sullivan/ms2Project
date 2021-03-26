@@ -1,13 +1,25 @@
 # Abbey Rock Retreat
 [GitHub Pages Live Site](https://jay-o-sullivan.github.io/ms2Project/)
 
-
+This website is a dynamic front-end based on a made up retreat for camping whether it be in a tent, caravan or a camper.
+Its a staycation in ireland while covid19 is here and that is where i got my idea from as no holidays abroad while in lockdown.
 
 
 
 ![Am I Responsive](assets/images/am-i-responsive.PNG)
 
 [view the live site here](https://jay-o-sullivan.github.io/ms2Project/)
+
+# Index
+ 1. [UX](#ux)
+ 1. [Features](#features)
+ 1. [Technologies Used](#technologies-used)
+ 1. [Testing](#testing)
+ 1. [Deployment](#deployment)
+ 1. [Credits](#credits)
+
+
+
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -17,20 +29,30 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+
+## Wireframes
+- The wireframes below is of the website on a android phone, desktop and ipad.
+- [wireframes](assets/images/ms2_wireframes.pdf)
+
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Each page features consistent design via use of colours to facilitate an intuitive and comfortable user experience. 
+This website has a number of pages which include these About, Activities, Accommodation, Pricing and Contact. which are all linked to the tab bar.
+
+1. About page with the name of the retreat and also a bit of information and also a link button to direct to the contact page and it also has a carousel of photos.
+2. Activities page with pictures showing what activities the retreat has to offer.
+3. Accommodation page with pictures showing what is allowed in the retreat.
+4. A comment section of what quests and visitors have said about the retreat.
+5. Pricing page which has 3 different panels with a button that links to 404 error page.
+6. Contact page which has the basic contact information and also the contact form.
+7. A basic map of the area.
+8. The footer has a '^' to return to top and a google translate drop-down to select a language.
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Add a payment page that users can pay and book online.
+- Blog type page where users can interact and leave recommendations of the retreat.
+- Newsletter that sends users the latest news and offers.
 
 ## Technologies Used
 
@@ -77,8 +99,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 #### Content
 * Structure and content based heavily on:
   * [Code Institute Solutions - README Template](https://github.com/Code-Institute-Solutions/readme-template)
-  * 
-
+  * {W3 Schools](https://www.w3schools.com/) - Various resources throughout the project 
+ 
 ### Media
 - The photos used in this site were obtained from 
  - [pexels](https://www.pexels.com/)
