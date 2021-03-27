@@ -316,12 +316,13 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
       <p><span class="glyphicon glyphicon-map-marker"></span> Limerick, Ireland</p>
       <p><span class="glyphicon glyphicon-phone"></span> 061-234567</p>
     </div>
+    <h4>Contact Form</h4>
     <div class="col-sm-7 slideanim" id="form">
      <form onsubmit="return sendMail(this);" oninvalid="alert('You must fill out the form!');">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                     <textarea rows="5" name="enquirysummary" class="form-control" id="enquirysummary" placeholder="Query" required></textarea>
-                    <button type="submit" class="btn btn-secondary center-block">Send</button>
+                    <button onclick="alert('Email has been sent')" type="submit" class="btn btn-secondary center-block">Send</button>
                 </form>
     </div>
     
