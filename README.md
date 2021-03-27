@@ -22,12 +22,16 @@ Its a staycation in ireland while covid19 is here and that is where i got my ide
 
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website is for people who are looking for a getaway retreat that caravans, campervans and even camping is space for all and it brings people back to basics and some relaxation from the busy world we live in.
+This project is for people trying to get a break away while also have some fun and staying safe while covid19 is here, it has all the activities and prices on the website, a contact form.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### User Stories
+- As a first time user, I want to find out what they have to offer, so that I can decide if it is the place for me and/or my family.
+- As a first time user, I want to be able to easily navigate to the activities, so that it is easy for me to get all the information on these.
+- As a first time user, I want to be able to get in contact with the owners, so that i can see if they have everthing on my booking.
+- As a returning user, I want to easily access everything in the site, 
+- As a regular user, I want to get straight to my booking, so i can have another vaccation away.
 
 
 ## Wireframes
@@ -64,7 +68,42 @@ This website has a number of pages which include these About, Activities, Accomm
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### User Stories Testing
+- As a first time user, I want to find out what they have to offer, so that I can decide if it is the place for me and/or my family.
+  - The about page provides a brief description of the place and what they have to offer.
+- As a first time user, I want to be able to easily navigate to the activities, so that it is easy for me to get all the information on these.
+  - The Activities page provides a brief description of what activities they have there.
+- As a first time user, I want to be able to get in contact with the owners, so that i can see if they have everthing on my booking.
+  - The contact page has all the information if needed to be contacted.
+- As a regular user, I want to get straight to pricing and booking, so i can have another vaccation away.
+  - Users can bookmark feature in the browser, or navigate through the site
+
+
+
+## Manual Testing
+
+### Home
+- Check to see if tab title is displaying correctly.
+- Checked all links to make sure they open the correct content.
+- Tested across various devices ( android phone, ipad, desktop, laptop) testing responsiveness
+
+### About
+- Checked title is displaying correctly in tab
+- Checked the (get in touch button) is sending to the right tab.
+- Checked the photo carousel is working correctly.
+
+### Activities
+- Checked title is displaying correctly in tab
+- Checked all images are working
+- Checked all the text content is displaying correctly
+
+### Accommondation
+- Checked title is displaying correctly in tab
+- Checked images are displaying correctly
+- Checked all text content is correct
+- Checked the comment carousel is working correctly.
+
+
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
