@@ -1,4 +1,4 @@
-document.ready(function(){
+$(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
   (".navbar a, footer a[href='#home']").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
@@ -30,33 +30,24 @@ document.ready(function(){
           $(this).addClass("slide");
         }
     });
-    
-    document.getElementById("form").addEventListener("sendMail", sendMail);
-    function sendMail(contactForm) {
-    emailjs.send("gmail", "template", {
+});
+});
+
+
+
+function sendMail(contactForm) {
+    emailjs.send("service_e1eyb28", "template", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "enquiry_request": contactForm.enquirysummary.value
     })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
+            alert("Great! We'll be in touch!");
         },
         function(error) {
-            console.log("FAILED", error);
+            alert("Oops, something went wrong.");
         }
     );
     return false;  // To block from loading a new page
 }
-document.getElementById("touch").addEventListener("mouseover", mouseOver);
-document.getElementById("touch").addEventListener("mouseout", mouseOut);
-
-function mouseOver() {
-  document.getElementById("touch").textContent = "Error refer to contact tab above";
-}
-
-function mouseOut() {
-  document.getElementById("touch").textContent = "Get in Touch";
-}
-});
-});

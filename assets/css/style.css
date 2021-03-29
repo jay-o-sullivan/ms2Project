@@ -18,7 +18,8 @@ body{
     margin-bottom: 30px;
   }  
   .jumbotron {
-    background-color: rgb(54, 170, 54);
+    background-image: url('/assets/images/getaway.jpg');
+    /*background-color: rgb(54, 170, 54);*/
     background-size: cover;
     color: rgb(0, 0, 0);
     padding: 100px 25px;
