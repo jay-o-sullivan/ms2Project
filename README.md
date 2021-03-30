@@ -6,7 +6,7 @@ Its a staycation in ireland while covid19 is here and that is where i got my ide
 
 
 
-![Am I Responsive](assets/images/am-i-responsive.PNG)
+![Am I Responsive](assets/images/am_i_responsive.png)
 
 [view the live site here](https://jay-o-sullivan.github.io/ms2Project/)
 
