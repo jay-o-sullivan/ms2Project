@@ -40,7 +40,7 @@ This project is for people trying to get a break away while also have some fun a
 ## Wireframes
 
 - The wireframes below is of the website on a android phone, desktop and ipad.
-  - [wireframes](assets/ms2_wireframes.pdf)
+  - [wireframes](assets/images/ms2-wireframes.pdf)
 
 
 
