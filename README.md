@@ -65,6 +65,7 @@ This website has a number of pages which include these About, Activities, Accomm
 - [JavaScript](https://javascript.com)
 - [HTML5](https://html.com)
 - [CSS3](https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
+ 
 
 ## Testing
 
@@ -104,43 +105,65 @@ This website has a number of pages which include these About, Activities, Accomm
 - Checked the comment carousel is working correctly.
 
 
+## Validators Used
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+- [JSHint](https://jshint.com/) - for validating JavaScript
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+(assets/images/jshint-js-validator.PNG) 
+- [W3C](https://validator.w3.org/) - for validating HTML
+(assets/images/w3-html-validator.PNG)
+- [W3C](https://jigsaw.w3.org/css-validator/) - for validating CSS
+(assets/images/w3-css-validator.PNG)
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The website was created using [GitPod](https://github.com). Version control was undertaken by committing to Git and pushing to GitHub using the functions within GitPod.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+### GitPod
+ - In GitPod, ensure that all required items have been committed and pushed to GitHub.
+ - Sign in to GitHub.
+ - Choose the appropriate repository - jay-o-sullivan/ms2Project
+ - From the menu choose the settings tab.
+  (assets/images/settings.PNG)
+ - Then scroll down to github pages.
+  (assets/images/pages.PNG) 
+ - Click the URl to view the deployed website.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
+## Run code locally
+ - There is different approaches should you choose to use GitPod to clone the project, or a different IDE.
+    - Use web browser -- google -- firefox etc.
+    - Login to your github account or sign up if you haven't.
+    - Install the gitpod extenstion for your browser.
+    - In github find the repository.
+    - Click on gitpod button. 
+    (assets/images/gitpod-button.PNG)
+    - New workspace will open containing the project code.
+
+## Cloning 
+ - Navigate to the github repository.
+ - Choose the dropdown on the code button.
+ (assets/images/clone.PNG)
+ - Open your IDE and terminal.
+ - Set the working directory to location.
+ - Type in "git clone" followed by the URL. Make sure to include a space after git clone for the url, press enter.
+ - Project created.
+
+ For more information on [GitHub] visit (https://docs.github.com/en)
+ 
 
 ## Credits
 
 #### Content
 * Structure and content based heavily on:
   * [Code Institute Solutions - README Template](https://github.com/Code-Institute-Solutions/readme-template)
-  * {W3 Schools](https://www.w3schools.com/) - Various resources throughout the project 
+  * {W3 Schools](https://www.w3schools.com/) - Various resources throughout the project.
+  * [JSFiddle](https://jsfiddle.net/macloo/g39k3h3e/) - for bounce and shake effects.
  
 ### Media
+
 - The photos used in this site were obtained from 
  - [pexels](https://www.pexels.com/)
  - [pixabay](https://pixabay.com/)
@@ -151,3 +174,6 @@ In addition, if it is not obvious, you should also describe how to run your code
 * [W3 Schools](https://www.w3schools.com/) - Various resources
 * [Free logo maker](https://logomakr.com/9Z9zAo) - logo maker
 * [TingPNG](https://tinypng.com/) - image resizing
+* [CodeRepublics](https://www.coderepublics.com/howto/how-to-google-translate.php) - google translate
+* [Google Maps Platform](https://developers.google.com/maps/documentation) - map
+* [GitHub](https://github.com/March-Hackathon-Team-27/Hackathon-Project-canRename-) - README template
