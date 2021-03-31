@@ -109,11 +109,11 @@ This website has a number of pages which include these About, Activities, Accomm
 
 - [JSHint](https://jshint.com/) - for validating JavaScript
 
-(assets/images/jshint-js-validator.PNG) 
+[](assets/images/jshint-js-validator.PNG) 
 - [W3C](https://validator.w3.org/) - for validating HTML
-(assets/images/w3-html-validator.PNG)
+[](assets/images/w3-html-validator.PNG)
 - [W3C](https://jigsaw.w3.org/css-validator/) - for validating CSS
-(assets/images/w3-css-validator.PNG)
+[](assets/images/w3-css-validator.PNG)
 
 ## Deployment
 
@@ -124,9 +124,9 @@ The website was created using [GitPod](https://github.com). Version control was 
  - Sign in to GitHub.
  - Choose the appropriate repository - jay-o-sullivan/ms2Project
  - From the menu choose the settings tab.
-  (assets/images/settings.PNG)
+  [](assets/images/settings.PNG)
  - Then scroll down to github pages.
-  (assets/images/pages.PNG) 
+  [](assets/images/pages.PNG) 
  - Click the URl to view the deployed website.
 
 
@@ -137,19 +137,19 @@ The website was created using [GitPod](https://github.com). Version control was 
     - Install the gitpod extenstion for your browser.
     - In github find the repository.
     - Click on gitpod button. 
-    (assets/images/gitpod-button.PNG)
+    [](assets/images/gitpod-button.PNG)
     - New workspace will open containing the project code.
 
 ## Cloning 
  - Navigate to the github repository.
  - Choose the dropdown on the code button.
- (assets/images/clone.PNG)
+ [](assets/images/clone.PNG)
  - Open your IDE and terminal.
  - Set the working directory to location.
  - Type in "git clone" followed by the URL. Make sure to include a space after git clone for the url, press enter.
  - Project created.
 
- For more information on [GitHub] visit (https://docs.github.com/en)
+ For more information on [GitHub] visit [](https://docs.github.com/en)
  
 
 ## Credits
