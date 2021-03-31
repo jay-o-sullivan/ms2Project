@@ -115,8 +115,6 @@ This website has a number of pages which include these About, Activities, Accomm
 - [W3C](https://jigsaw.w3.org/css-validator/) - for validating CSS
 (assets/images/w3-css-validator.PNG)
 
-
-
 ## Deployment
 
 The website was created using [GitPod](https://github.com). Version control was undertaken by committing to Git and pushing to GitHub using the functions within GitPod.
