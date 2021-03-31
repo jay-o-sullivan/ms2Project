@@ -215,7 +215,8 @@ Structure and content based heavily on:
 
   - [Code Institute Solutions - README Template](https://github.com/Code-Institute-Solutions/readme-template)
   - [W3 Schools](https://www.w3schools.com/)  Various resources throughout the project.
-  - [JSFiddle](https://jsfiddle.net/macloo/g39k3h3e/)  bounce and shake effects.
+  - [JSFiddle](https://jsfiddle.net/StephanWagner/4qo94phy/)  animations.
+
  
 ### Media
 
@@ -233,3 +234,4 @@ The photos used in this site were obtained from
 * [CodeRepublics](https://www.coderepublics.com/howto/how-to-google-translate.php)  google translate
 * [Google Maps Platform](https://developers.google.com/maps/documentation)  map
 * [GitHub](https://github.com/March-Hackathon-Team-27/Hackathon-Project-canRename-)  README template
+* Mentor - Gerard Mc Bride 
