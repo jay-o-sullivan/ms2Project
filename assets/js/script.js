@@ -62,56 +62,31 @@ $('#p1').css('display', 'none');
 $('#p1').fadeIn(1500);
 
 });
-// all images shake when button is clicked
-$('#shake').click(function() {
-  shake($('.col-sm-4'));
-});
+var animationSpeeds = {
+  'tada': 1000,
+  'tadaSmall': 1000,
+  'flash': 500,
+  'shake': 400,
+  'pulseUp': 250,
+  'pulseDown': 250,
+  'popIn': 250,
+  'popOut': 250,
+  'fadeIn': 200,
+  'fadeOut': 200
+};
 
-// all images bounce when button is clicked
-$('#bounce').click(function() {
-  bounce($('.col-sm-4'));
-});
-
-// adaptable SHAKE function, from 
-// https://bradleyhamilton.com/projects/shake/index.html 
-function shake(thing) {
-  var interval = 100;
-  var distance = 10;
-  var times = 6;
-
-  for (var i = 0; i < (times + 1); i++) {       // for loop 
-    $(thing).animate({
-      left:
-        (i % 2 == 0 ? distance : distance * -1)
-    }, interval);
+function animateEl(element, animation, complete)
+{
+  if (!element instanceof jQuery || !$(element).length || !animation) return null;
+  
+  if (element.data('animating')) {
+    element.removeClass(element.data('animating')).data('animating', null);
+    element.data('animationTimeout') && clearTimeout(element.data('animationTimeout'));
   }
-  $(thing).animate({
-    left: 0,
-    top: 0
-  }, interval);
+  
+  element.addClass('animated-' + animation).data('animating', 'animated-' + animation);
+  element.data('animationTimeout', setTimeout((function() { element.removeClass(element.data('animating')).data('animating', null); complete && complete(); }), animationSpeeds[animation]));
 }
-// end SHAKE
-
-// adaptable BOUNCE function, adapted from 
-// http://stackoverflow.com/questions/10363671/jquery-bounce-effect-on-click-no-jquery-ui 
-// code by "christian" 
-function bounce(thing) {
-  var interval = 100;
-  var distance = 20;
-  var times = 6;
-  var damping = 0.8;
-
-  for (var i = 0; i < (times + 1); i++) {           // for loop
-    var amt = Math.pow(-1, i) * distance / (i * damping);
-    $(thing).animate({
-      top: amt
-    }, 100);
-  }
-  $(thing).animate({
-    top: 0
-  }, interval);
-}
-// end BOUNCE
 
 function myFunction() {                 // confirm box 
   var txt;

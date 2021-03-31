@@ -140,6 +140,111 @@ body{                                   /* styling for body   */
   background: #cff;
   border-radius: 20px;
 }
+[class^="animated-"],
+[class*=" animated-"] {
+  animation-fill-mode: both;
+}
+
+@keyframes tada {
+  0% {transform: scale(1);}
+  10%, 20% {transform: scale(0.8) rotate(-4deg);}
+  30%, 50%, 70%, 90% {transform: scale(1.2) rotate(4deg);}
+  40%, 60%, 80% {transform: scale(1.2) rotate(-4deg);}
+  100% {transform: scale(1) rotate(0);}
+}
+
+.animated-tada {
+  animation: tada 1s;
+}
+
+@keyframes tadaSmall {
+  0% {transform: scale(1);}
+  10%, 20% {transform: scale(0.9) rotate(-2deg);}
+  30%, 50%, 70%, 90% {transform: scale(1.1) rotate(2deg);}
+  40%, 60%, 80% {transform: scale(1.1) rotate(-2deg);}
+  100% {transform: scale(1) rotate(0);}
+}
+
+.animated-tadaSmall {
+  animation: tadaSmall 1s;
+}
+
+@keyframes flash {
+  0%, 50%, 100% {opacity: 1;}  
+  25%, 75% {opacity: 0;}
+}
+
+.animated-flash {
+  animation: flash .5s;
+}
+
+@keyframes shake {
+  0%, 100% {transform: translateX(0);}
+  20%, 60% {transform: translateX(-6px);}
+  40%, 80% {transform: translateX(6px);}
+}
+
+.animated-shake {
+  animation: shake .4s;
+}
+
+@keyframes pulseUp {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.15);}
+  100% {transform: scale(1);}
+}
+
+.animated-pulseUp {
+  animation: pulseUp .25s;
+}
+
+@keyframes pulseDown {
+  0% {transform: scale(1);}
+  50% {transform: scale(0.85);}
+  100% {transform: scale(1);}
+}
+
+.animated-pulseDown {
+  animation: pulseDown .25s;
+}
+
+@keyframes popIn {
+  0% {transform: scale(0);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+
+.animated-popIn {
+  animation: popIn .25s;
+}
+
+@keyframes popOut {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(0);}
+}
+
+.animated-popOut {
+  animation: popOut .25s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.animated-fadeIn {
+  animation: fadeIn .2s;
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.animated-fadeOut {
+  animation: fadeOut .2s;
+}
 
 
 /* button response styles */

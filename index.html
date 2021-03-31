@@ -30,15 +30,15 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#home"><img src="assets/images/logo.png" height="25" width="40" alt="logo"></a> <!-- logo in navbar   -->
+      <a class="navbar-brand" href="#home"><img id="target-tada" onclick="animateEl($('#target-tada'), 'tada')" src="assets/images/logo.png" height="25" width="40" alt="logo"></a> <!-- logo in navbar   -->
     </div>
     <div class="collapse navbar-collapse" id="myNavbar"> <!-- navbar and navigations   -->
       <ul class="nav navbar-nav navbar-right"><!--navbar class and pages-->
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#activities">ACTIVITIES</a></li>
-        <li><a href="#accommadation">ACCOMMANDATION</a></li>
-        <li><a href="#pricing">PRICING</a></li>
-        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#about" id="target-shake" onclick="animateEl($('#target-shake'), 'shake')">ABOUT</a></li>
+        <li><a href="#activities" id="target-pulseDown" onclick="animateEl($('#target-pulseDown'), 'pulseDown')">ACTIVITIES</a></li>
+        <li><a href="#accommadation" id="target-popIn" onclick="animateEl($('#target-popIn'), 'popIn')">ACCOMMANDATION</a></li>
+        <li><a href="#pricing" id="target-flash" onclick="animateEl($('#target-flash'), 'flash')">PRICING</a></li>
+        <li><a href="#contact" id="target-pulseUp" onclick="animateEl($('#target-pulseUp'), 'pulseUp')">CONTACT</a></li>
         <li><a href="error404.html">
           <span class="glyphicon glyphicon-shopping-cart"></span><!--Icon-->
         </a></li> 
@@ -66,7 +66,7 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
       <br>
       <!--form and button-->
       <form action="#contact" id="touch">
-      <button onclick="alert('Directing to the contact page')" type="submit" class="btn btn-default btn-lg">Get in Touch</button></form><!-- form button  -->
+      <button type="submit" class="btn btn-default btn-lg">Get in Touch</button></form><!-- form button  -->
     </div>
   </div></div>
 <!-- Carousel for images   -->
@@ -123,23 +123,20 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
 <div id="activities" class="container-fluid text-center">
   <h2>Activities</h2>
   <h4>What we offer</h4>
-  <br><div style="align-content: center; padding-bottom: 10px;" >
-  <button id="bounce">Bounce</button>
-  <button id="shake">Shake</button>
-  </div>
+  <br>
 
     <div class="col-sm-4">
-      <span><img src="assets/images/golf.jpg" alt="golf"></span><!-- image   -->
+      <span><img id="target-pulseUp" onclick="animateEl($('#target-pulseUp'), 'pulseUp')" src="assets/images/golf.jpg" alt="golf"></span><!-- image   -->
       <h4>Golf</h4>
       <p>why not play in our fantastic 18 hole golf course or have some fun with the kids in some crazy golf.</p>
     </div>
     <div class="col-sm-4">
-      <span><img src="assets/images/hiking.jpg" alt="hiking"></span><!-- image   -->
+      <span><img id="target-popOut" onclick="animateEl($('#target-popOut'), 'popOut')" src="assets/images/hiking.jpg" alt="hiking"></span><!-- image   -->
       <h4>Hiking/Walking</h4>
       <p>Maybe a nice walk around the forest or some hiking through the mountains and we also have a beautiful cycle track where you might see some of our local wildlife.</p>
     </div>
     <div class="col-sm-4">
-      <span><img src="assets/images/fishing.jpg" alt="fishing"></span><!-- image   -->
+      <span><img id="target-popIn" onclick="animateEl($('#target-popIn'), 'popIn')" src="assets/images/fishing.jpg" alt="fishing"></span><!-- image   -->
       <h4>Fishing</h4>
       <p>Maybe catch a few fish for the barbeque or just relax and unwind. 2 fish per person</p>
       
@@ -148,17 +145,19 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
 <!-- another activities section   -->
 <div id="activities2" class="container-fluid text-center">
     <div class="col-sm-4">
-      <span><img src="assets/images/orca.jpg" alt="orca"></span><!-- image   -->
+      <span><img  id="target-flash" onclick="animateEl($('#target-flash'), 'flash')" src="assets/images/orca.jpg" alt="orca"></span><!-- image   -->
       <h4>Whale Watching</h4>
       <p>Why not try our boat trip and see some whales up close in the wild and its also a fantastic opportunity to get some photos. we offer 3 boat trips a day.</p>
     </div>
     <div class="col-sm-4">
-      <span><img src="assets/images/animals.jpg" alt="animals"></span><!-- image   -->
+
+      <span><img id="target-shake" onclick="animateEl($('#target-shake'), 'shake')" src="assets/images/animals.jpg"  alt="animals"></span><!-- image   -->
       <h4>Pet Farm</h4>
       <p>Come and see some of our cute and furry friends and why not purchase some of our pet food so you can feed them.</p>
     </div>
     <div class="col-sm-4">
-      <span><img src="assets/images/nature.jpg" alt="nature"></span><!-- image   -->
+     
+      <span><img id="target-tada" onclick="animateEl($('#target-tada'), 'tada')" src="assets/images/nature.jpg" alt="nature"></span><!-- image   -->
       <h4>Nature</h4>
       <p>Enjoy nature at its finest whether its relaxing with some music or just reading a book</p>
     </div>
@@ -325,7 +324,7 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                     <textarea rows="5" name="enquirysummary" class="form-control" id="enquirysummary" placeholder="Query" required></textarea>
-                    <button type="submit" class="btn btn-secondary center-block">Send</button>
+                    <button id="send" type="submit" class="btn btn-secondary center-block">Send</button>
         </form>
     </div>
     
