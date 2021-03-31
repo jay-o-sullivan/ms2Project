@@ -21,7 +21,7 @@ $(document).ready(function(){
     } // End if
   });
   
-  $(window).scroll(function() {
+  $(window).scroll(function() {  // slide animation 
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
 
@@ -35,17 +35,17 @@ $(document).ready(function(){
 
 
 
-function sendMail(contactForm) {
-    emailjs.send("service_e1eyb28", "template", {
-        "from_name": contactForm.name.value,
+function sendMail(contactForm) {     // sending email contact form 
+    emailjs.send("service_e1eyb28", "template", { 
+        "from_name": contactForm.name.value,             // form values
         "from_email": contactForm.emailaddress.value,
         "enquiry_request": contactForm.enquirysummary.value
     })
     .then(
-        function(response) {
+        function(response) {                            // response if email sends
             alert("Great! We'll be in touch!");
         },
-        function(error) {
+        function(error) {                               // response if email fails
             alert("Oops, something went wrong.");
         }
     );
@@ -62,12 +62,12 @@ $('#p1').css('display', 'none');
 $('#p1').fadeIn(1500);
 
 });
-// all icons shake when button is clicked
+// all images shake when button is clicked
 $('#shake').click(function() {
   shake($('.col-sm-4'));
 });
 
-// all icons bounce when button is clicked
+// all images bounce when button is clicked
 $('#bounce').click(function() {
   bounce($('.col-sm-4'));
 });
@@ -79,7 +79,7 @@ function shake(thing) {
   var distance = 10;
   var times = 6;
 
-  for (var i = 0; i < (times + 1); i++) {
+  for (var i = 0; i < (times + 1); i++) {       // for loop 
     $(thing).animate({
       left:
         (i % 2 == 0 ? distance : distance * -1)
@@ -101,7 +101,7 @@ function bounce(thing) {
   var times = 6;
   var damping = 0.8;
 
-  for (var i = 0; i < (times + 1); i++) {
+  for (var i = 0; i < (times + 1); i++) {           // for loop
     var amt = Math.pow(-1, i) * distance / (i * damping);
     $(thing).animate({
       top: amt
@@ -112,3 +112,13 @@ function bounce(thing) {
   }, interval);
 }
 // end BOUNCE
+
+function myFunction() {                 // confirm box 
+  var txt;
+  if (confirm("Add to cart!")) {
+    txt = "You pressed OK!";        // if you press ok it will add to cart otherwise it says cancel
+  } else {
+    txt = "You pressed Cancel!";    
+  }
+  document.getElementById("panel-footer").innerHTML = txt;
+}

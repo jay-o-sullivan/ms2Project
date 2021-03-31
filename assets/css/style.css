@@ -1,45 +1,44 @@
-body{
+body{                                   /* styling for body   */
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
   }
-  h2 {
+  h2 {                                   /* styling for h2   */
     font-size: 24px;
     text-transform: uppercase;
     color: #303030;
     font-weight: 600;
     margin-bottom: 30px;
   }
-  h4 {
+  h4 {                                   /* styling for h4   */
     font-size: 19px;
     line-height: 1.375em;
     color: #303030;
     font-weight: 400;
     margin-bottom: 30px;
   }  
-  .jumbotron {
-    background-image: url('/assets/images/getaway.jpg');
-    /*background-color: rgb(54, 170, 54);*/
+  .jumbotron {                                           /* styling for jumbotron   */
+    background-image: url('/assets/images/getaway.jpg');     /* background image   */
     background-size: cover;
     color: rgb(0, 0, 0);
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
   }
-  .container-fluid {
+  .container-fluid {                                             /* padding for container   */
     padding: 60px 50px;
   }
-  .bg-grey {
+  .bg-grey {                                                     /* styling for class   */
     background-color: #f6f6f6;
   }
-  .logo-small {
+  .logo-small {                                                          /* styling for small logo   */
     color: #f4511e;
-    font-size: 50px;
+    font-size: 50px;                                                
   }
-  .logo {
+  .logo {                                                    /* styling for logo   */
     color: #f4511e;
     font-size: 200px;
   }
-  .thumbnail {
+  .thumbnail {                               /* styling for thumbnails and images   */
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
@@ -49,7 +48,7 @@ body{
     height: 100%;
     margin-bottom: 10px;
   }
-  .carousel-control.right, .carousel-control.left {
+  .carousel-control.right, .carousel-control.left {                       /* styling for the controls  */
     background-image: none;
     color: #f4511e;
   }
@@ -74,7 +73,7 @@ body{
     border-radius:0 !important;
     transition: box-shadow 0.5s;
   }
-  .panel:hover {
+  .panel:hover {                                             /* hover  */
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
@@ -157,10 +156,7 @@ button:active {
 button:focus {
   outline: none;
 }
-
-
-
-
+ /* media screens for responsiveness  */
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
