@@ -216,7 +216,7 @@ Structure and content based heavily on:
   - [Code Institute Solutions - README Template](https://github.com/Code-Institute-Solutions/readme-template)
   - [W3 Schools](https://www.w3schools.com/)  Various resources throughout the project.
   - [JSFiddle](https://jsfiddle.net/StephanWagner/4qo94phy/)  animations.
-
+  - [Youtube](https://www.youtube.com/watch?v=POX3dT-pB4E) Traversy Media text animation
  
 ### Media
 
