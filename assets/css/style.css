@@ -1,7 +1,7 @@
 body{                                   /* styling for body   */
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    color: #131212;
   }
   h2 {                                   /* styling for h2   */
     font-size: 24px;
@@ -22,7 +22,7 @@ body{                                   /* styling for body   */
     background-size: cover;
     color: rgb(0, 0, 0);
     padding: 100px 25px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   }
   .container-fluid {                                             /* padding for container   */
     padding: 60px 50px;
@@ -48,6 +48,7 @@ body{                                   /* styling for body   */
     height: 100%;
     margin-bottom: 10px;
   }
+
   .carousel-control.right, .carousel-control.left {                       /* styling for the controls  */
     background-image: none;
     color: #f4511e;
@@ -98,7 +99,7 @@ body{                                   /* styling for body   */
     font-size: 32px;
   }
   .panel-footer h4 {
-    color: #aaa;
+    color: rgb(42, 42, 42);
     font-size: 14px;
   }
   .panel-footer .btn {
@@ -140,6 +141,7 @@ body{                                   /* styling for body   */
   background: #cff;
   border-radius: 20px;
 }
+
 [class^="animated-"],
 [class*=" animated-"] {
   animation-fill-mode: both;
