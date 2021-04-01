@@ -1,7 +1,7 @@
 # Abbey Rock Retreat
 [GitHub Pages Live Site](https://jay-o-sullivan.github.io/ms2Project/)
 
-This website is a dynamic front-end based on a made up retreat for camping whether it be in a tent, caravan or a camper.
+This website is a dynamic front-end based also interactive on a made up retreat for camping whether it be in a tent, caravan or a camper.
 Its a staycation in ireland while covid19 is here and that is where i got my idea from as no holidays abroad while in lockdown.
 
 
