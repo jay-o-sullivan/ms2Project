@@ -336,11 +336,13 @@ emailjs.init("user_EjMkaMU9n3Vd2L7FGxEt0");
     
   </div>
 </div>
+<div id="map">
 
+</div>
 <!-- Map with iframe  -->
-<iframe onload="this.width=screen.width;this.height=screen.height;" style="border:0" loading="lazy"
+<!--<iframe onload="this.width=screen.width;this.height=screen.height;" style="border:0" loading="lazy"
 allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJE1FUH2FcW0gRMHMxl6nHAAo&key=AIzaSyDvUDtC45fHoCwpTjeAnFbMZQtLaRBiY-A">
-</iframe> 
+</iframe> -->
 
 
 <footer class="container-fluid text-center"><!-- footer -->
@@ -351,13 +353,19 @@ allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJE
   <img src="assets/images/logo.png" alt="logo" height="25" width="40">
 
   <div id="google_translate_element"></div> <!--translater for website-->
+  </footer>
   <script>
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
 }
 </script>
 <script src="assets/js/script.js"></script>
-</footer>
+
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUnirtKUOJmZL4KoWFY3yK6Mcs4lTVufQ&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
